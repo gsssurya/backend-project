@@ -5,9 +5,9 @@ const jwt = require('jsonwebtoken');
 const cookieParser = require('cookie-parser');
 
 
-const app = express();                                // Users administrator 
-app.use(express.json());                              // username = dosenpsb
-app.use(cookieParser());                              // password = kasisayaseratuspak
+const app = express();                                
+app.use(express.json());                           
+app.use(cookieParser());                             
 
 
 /* Connect Database start */
